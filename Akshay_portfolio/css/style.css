@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto%3Awght%40100%3B300%3B400%3B500%3B700%3B900&display=swap');
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -184,12 +187,16 @@ body {
 }
 
 .navbar-brand h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     display: inline-flex;
     align-items: center;
     margin-top: 0.5rem;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
 }
 
 .navigation-wrap {
@@ -258,7 +265,6 @@ body {
 }
 
 .navigation-wrap.scroll-on .nav-link:hover,
-.navigation-wrap.nav-item .nav-link:focus,
 .navigation-wrap.scroll-on .nav-link.active {
     color: var(--secondary-text);
 }
